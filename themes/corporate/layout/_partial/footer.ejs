@@ -4,20 +4,19 @@
         <div class="row">
           <!-- BEGIN BOTTOM ABOUT BLOCK -->
           <div class="col-md-4 col-sm-6 pre-footer-col">
-            <h2>About Us</h2>
+            <h2>关于本网站</h2>
             <p><%- theme.about %></p>
           </div>
           <!-- END BOTTOM ABOUT BLOCK -->
 
           <!-- BEGIN BOTTOM CONTACTS -->
           <div class="col-md-4 col-sm-6 pre-footer-col">
-            <h2>Contact</h2>
+            <h2>联系我们</h2>
             <address class="margin-bottom-40">
               <%= theme.address_1 %><br>
               <%= theme.address_2 %><br>
               <%= theme.address_3 %><br>
-              Phone: <%= theme.phone %><br>
-              Email: <a href="mailto:<%= theme.email %>"><%= theme.email %></a><br>
+              网站维护: <a href="mailto:<%= theme.email %>"><%= theme.email %></a><br>
             </address>
           </div>
           <!-- END BOTTOM CONTACTS -->
@@ -49,7 +48,6 @@
           <!-- BEGIN COPYRIGHT -->
           <div class="col-md-6 col-sm-6 padding-top-10">
                   &copy; <%= date(new Date(), 'YYYY') %> <%= config.title %><br>
- <a href="javascript:;">Privacy Policy</a> | <a href="javascript:;">Terms of Service</a>
           </div>
           <!-- END COPYRIGHT -->
 	  <%- partial('_partial/social') %>
