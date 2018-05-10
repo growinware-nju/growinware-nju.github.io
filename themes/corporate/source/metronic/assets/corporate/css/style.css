@@ -2646,6 +2646,10 @@ Demo Utils
 /* Blog Sidebar categories END */
 
 /* Blog Item */
+.blog-item p {
+	font-size: 125%;
+}
+
 .blog-item .blog-item-img {
   margin: 6px 0 25px;
 }
