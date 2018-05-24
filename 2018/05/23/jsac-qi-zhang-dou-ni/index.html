@@ -7,26 +7,25 @@
 <head>
   <meta charset="utf-8">
   
-  <title>非确定环境下的自适应系统验证技术 | Growinware</title>
+  <title>基于分布Locality-Sensitive Hashing的云服务推荐技术 | Growinware</title>
 
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <meta name="description" content="非确定的感知与适应行为是否正确直接决定了自适应系统运行是否成功。例如，在无人自适应小车应用中，对环境测量的不确定性(例如由传感器误差导致)将可能导致自适应失效，从而违反软件的高层行为规约(specification)。 我们完成的工作实现了CPS系统的ISM (Interactive State Machine)建模和验证。">
-<meta name="keywords" content="进展">
+  <meta name="description" content="在云服务提供商中，为用户提供满足其QoS需求的服务是至关重要的，而在跨云平台(例如Amazon、IBM等多个平台)的应用场景中，多个平台的信息整合成为一项研究挑战。本文介绍了如何利用LSH技术在解决隐私保护、准确、可扩展的服务推荐问题。">
+<meta name="keywords" content="研究进展">
 <meta property="og:type" content="article">
-<meta property="og:title" content="非确定环境下的自适应系统验证技术">
-<meta property="og:url" content="https://growinware-nju.github.io/2018/04/23/180423-toit/index.html">
+<meta property="og:title" content="基于分布Locality-Sensitive Hashing的云服务推荐技术">
+<meta property="og:url" content="https://growinware-nju.github.io/2018/05/23/jsac-qi-zhang-dou-ni/index.html">
 <meta property="og:site_name" content="Growinware">
-<meta property="og:description" content="非确定的感知与适应行为是否正确直接决定了自适应系统运行是否成功。例如，在无人自适应小车应用中，对环境测量的不确定性(例如由传感器误差导致)将可能导致自适应失效，从而违反软件的高层行为规约(specification)。 我们完成的工作实现了CPS系统的ISM (Interactive State Machine)建模和验证。">
+<meta property="og:description" content="在云服务提供商中，为用户提供满足其QoS需求的服务是至关重要的，而在跨云平台(例如Amazon、IBM等多个平台)的应用场景中，多个平台的信息整合成为一项研究挑战。本文介绍了如何利用LSH技术在解决隐私保护、准确、可扩展的服务推荐问题。">
 <meta property="og:locale" content="default">
-<meta property="og:image" content="https://growinware-nju.github.io/content/robocar-model.png">
-<meta property="og:image" content="https://growinware-nju.github.io/content/robocar-search.png">
-<meta property="og:updated_time" content="2018-05-14T07:29:43.000Z">
+<meta property="og:image" content="https://growinware-nju.github.io/content/jsac-lsh.png">
+<meta property="og:updated_time" content="2018-05-24T11:32:38.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="非确定环境下的自适应系统验证技术">
-<meta name="twitter:description" content="非确定的感知与适应行为是否正确直接决定了自适应系统运行是否成功。例如，在无人自适应小车应用中，对环境测量的不确定性(例如由传感器误差导致)将可能导致自适应失效，从而违反软件的高层行为规约(specification)。 我们完成的工作实现了CPS系统的ISM (Interactive State Machine)建模和验证。">
-<meta name="twitter:image" content="https://growinware-nju.github.io/content/robocar-model.png">
+<meta name="twitter:title" content="基于分布Locality-Sensitive Hashing的云服务推荐技术">
+<meta name="twitter:description" content="在云服务提供商中，为用户提供满足其QoS需求的服务是至关重要的，而在跨云平台(例如Amazon、IBM等多个平台)的应用场景中，多个平台的信息整合成为一项研究挑战。本文介绍了如何利用LSH技术在解决隐私保护、准确、可扩展的服务推荐问题。">
+<meta name="twitter:image" content="https://growinware-nju.github.io/content/jsac-lsh.png">
   
   
     <link rel="icon" href="/favicon.ico">
@@ -116,13 +115,13 @@
   <section id="main">
     
     <h2 itemprop="name">
-      <a class="article-title" href="/2018/04/23/180423-toit/">非确定环境下的自适应系统验证技术</a>
+      <a class="article-title" href="/2018/05/23/jsac-qi-zhang-dou-ni/">基于分布Locality-Sensitive Hashing的云服务推荐技术</a>
     </h2>
 
 
     <div class="row">
 <div class="col-md-9 col-sm-9 blog-posts">
-<article id="post-180423-toit" class="article article-type-post blog-item" itemscope itemprop="blogPost">
+<article id="post-jsac-qi-zhang-dou-ni" class="article article-type-post blog-item" itemscope itemprop="blogPost">
   <div class="article-meta">
   </div>
   <div class="article-inner">
@@ -132,13 +131,13 @@
       <ul class="blog-info">
 	<li><i class="fa fa-user"></i> Growinware</li>
 	<li><i class="fa fa-calendar"></i>
-	  <time datetime="2018-04-22T16:00:00.000Z" itemprop="datePublished">2018/04/23</time>
+	  <time datetime="2018-05-22T16:00:00.000Z" itemprop="datePublished">2018/05/23</time>
 
 	</li>
 	<li class="hidden-xs"><i class="fa fa-tags"></i> 
 	  
   
-    <a href="/tags/进展/" title="进展">进展</a>
+    <a href="/tags/研究进展/" title="研究进展">研究进展</a>
   
 
 
@@ -150,15 +149,12 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p><img src="/content/robocar-model.png" alt=""></p>
-<p>非确定的感知与适应行为是否正确直接决定了自适应系统运行是否成功。例如，在无人自适应小车应用中，对环境测量的不确定性(例如由传感器误差导致)将可能导致自适应失效，从而违反软件的高层行为规约(specification)。</p>
-<p>我们完成的工作实现了CPS系统的ISM (Interactive State Machine)建模和验证。</p>
+        <p><img src="/content/jsac-lsh.png" alt=""></p>
+<p>在云服务提供商中，为用户提供满足其QoS需求的服务是至关重要的，而在跨云平台(例如Amazon、IBM等多个平台)的应用场景中，多个平台的信息整合成为一项研究挑战。本文介绍了如何利用LSH技术在解决隐私保护、准确、可扩展的服务推荐问题。</p>
 <a id="more"></a>
-<p><img src="/content/robocar-search.png" alt=""></p>
-<p>并且实现了基于搜索(Search-based)算法的模型校准和反例确认，在15个机器人小车应用上证实了方法的有效性。</p>
-<p>研究论文：</p>
-<ul>
-<li>Wenhua Yang, Chang Xu, Minxue Pan, Xiaoxing Ma, Jian Lu. Improving Veriﬁcation Accuracy of CPS by Modeling and Calibrating Interaction Uncertainty. In <em>ACM Transactions on Internet Technology</em>, 18(2), 2018. (第一标注)</li>
+<h3 id="论文摘要"><a href="#论文摘要" class="headerlink" title="论文摘要"></a>论文摘要</h3><p>To maximize the economic benefits, a cloud service provider needs to recommend its services to as many users as possible based on the historical user-service quality data. However, when a cloud platform (e.g., Amazon) intends to make a service recommendation decision, considering only its own user-service quality data is insufficient, because a cloud user may invoke services from multiple distributed cloud platforms (e.g., Amazon and IBM). In this situation, it is promising for Amazon to collaborate with other cloud platforms (e.g., IBM) to utilize the integrated data for the service recommendation to improve the recommendation accuracy. However, two challenges are present in the above-mentioned collaboration process, where we attempt to use multi-source data for the service recommendation. First, protecting users’ privacy is challenging when IBM releases its own data to Amazon. Second, the recommendation efficiency and scalability are often low when the user-service quality data of Amazon and IBM update frequently. Considering these challenges, a privacy-preserving and scalable service recommendation approach based on distributed locality-sensitive hashing, i.e., SerRec(distri-LSH), is proposed in this paper to handle the service recommendation in a distributed cloud environment. Extensive experiments on the WS-DREAM data set validate the feasibility of our approach in terms of service recommendation accuracy, scalability, and privacy preservation.</p>
+<h3 id="发表论文"><a href="#发表论文" class="headerlink" title="发表论文"></a>发表论文</h3><ul>
+<li>Lianyong Qi, Xuyun Zhang, Wanchun Dou, Qiang Ni. A Distributed Locality-Sensitive Hashing-Based Approach for Cloud Service Recommendation From Multi-Source Data. In <em>IEEE Journal on Selected Areas in Communications</em>, 35(11), 2017. (第一标注)</li>
 </ul>
 
       
@@ -168,19 +164,10 @@
     
 <nav id="article-nav">
   
-    <a href="/2018/04/23/180423-subtask/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          开放环境感知与自适应方法和技术研究进展
-        
-      </div>
-    </a>
   
-  
-    <a href="/2018/04/22/180422-meeting/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2018/05/12/maintain/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">课题一工作研讨会在南京召开</div>
+      <div class="article-nav-title">课题层信息发布平台的维护</div>
     </a>
   
 </nav>
@@ -201,7 +188,7 @@
   <div class="widget-wrap">
     <div class="widget">
       
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/会议/"><i class='fa fa-tags'></i>会议</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/公告/"><i class='fa fa-tags'></i>公告</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/文档/"><i class='fa fa-tags'></i>文档</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/进展/"><i class='fa fa-tags'></i>进展</a></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/会议/"><i class='fa fa-tags'></i>会议</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/公告/"><i class='fa fa-tags'></i>公告</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/文档/"><i class='fa fa-tags'></i>文档</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/研究进展/"><i class='fa fa-tags'></i>研究进展</a></li></ul>
     </div>
   </div>
 
