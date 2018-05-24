@@ -2669,6 +2669,10 @@ Demo Utils
   margin: 20px 40px 18px;
   border-color: #E84D1C;
 }
+.blog-item {
+	max-width: 720px;
+}
+
 .blog-item .blog-info {
   margin: 20px 0;
   padding: 8px 0;
