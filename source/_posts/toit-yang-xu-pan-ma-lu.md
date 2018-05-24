@@ -16,5 +16,6 @@ date: 2018-04-23
 
 并且实现了基于搜索(Search-based)算法的模型校准和反例确认，在15个机器人小车应用上证实了方法的有效性。
 
-发表论文：
+### 发表论文
+
 * Wenhua Yang, Chang Xu, Minxue Pan, Xiaoxing Ma, Jian Lu. Improving Veriﬁcation Accuracy of CPS by Modeling and Calibrating Interaction Uncertainty. In *ACM Transactions on Internet Technology*, 18(2), 2018. (第一标注)
