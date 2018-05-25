@@ -16,8 +16,6 @@ date: 2018-04-25
 
 * Yafeng Yin, Qun Li, Lei Xie, Shanhe Yi, Ed Novak, and Sanglu Lu. CamK: Camera-based Keystroke Detection and Localization for Small Mobile Devices. *IEEE Transactions on Mobile Computing*, 2018.
 * Bin Tang, and Shenghao Yang. An LDPC approach for chunked network codes. *IEEE/ACM Transactions on Networking*, 26(1): 605-617, 2018.
-* Wenhua Yang, Chang Xu, Minxue Pan, Chun Cao, Xiaoxing Ma, Jian Lu. Efficient Validation of Self-adaptive Applications by Counterexample Probability Maximization. In *Journal of Systems and Software*, 138, 2018.
-* Wenhua Yang, Chang Xu, Minxue Pan, Xiaoxing Ma, Jian Lu. Improving Veriﬁcation Accuracy of CPS by Modeling and Calibrating Interaction Uncertainty. In *ACM Transactions on Internet Technology*, 18(2), 2018.
 * Lianyong Qi, Xuyun Zhang, Wanchun Dou, Qiang Ni. A Distributed Locality-Sensitive Hashing-Based Approach for Cloud Service Recommendation From Multi-Source Data. In *IEEE Journal on Selected Areas in Communications*, 35(11), 2017.
 
 #### 会议论文
@@ -34,5 +32,10 @@ date: 2018-04-25
 ### 软件无缝演化与过程演进支撑技术
 
 ### 软件演化质量评估方法和保障机制
+
+#### 期刊论文
+* Wenhua Yang, Chang Xu, Minxue Pan, Chun Cao, Xiaoxing Ma, Jian Lu. Efficient Validation of Self-adaptive Applications by Counterexample Probability Maximization. In *Journal of Systems and Software*, 138, 2018.
+* Wenhua Yang, Chang Xu, Minxue Pan, Xiaoxing Ma, Jian Lu. Improving Veriﬁcation Accuracy of CPS by Modeling and Calibrating Interaction Uncertainty. In *ACM Transactions on Internet Technology*, 18(2), 2018.
+
 
 ### 工具平台与应用探索
