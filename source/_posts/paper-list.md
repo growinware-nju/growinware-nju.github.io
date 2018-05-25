@@ -1,14 +1,14 @@
 ---
 title: 课题一研究进展总结
-tags: ['研究进展']
-date: 2018-04-25
+tags: ['进展报告']
+date: 2050-01-01
 ---
 
-本文汇总了项目各个子课题方面取得的研究进展汇总
+![](/content/growinware.png)
+
+本文汇总了“可持续演化的智能化软件理论、方法和技术”项目课题一：“可成长的智能化网构软件范型理论、方法与技术研究”中各个子课题取得的研究进展。
 
 <!--more-->
-
-(本文列出论文均为项目第一标注)
 
 ### 开放环境感知与自适应方法和技术
 
@@ -28,7 +28,6 @@ date: 2018-04-25
 * Xuewei Zhang, Wang Xiaoliang, Cam-Tu Nguyen, Jiang Wang, Zhuzhong Qian, Sanglu Lu. A Virtual Middleboxes Network Placement Algorithm in Multi-tenant Datacenter Networks. In *Proceedings of IEEE ICPADS*, 2017.
 * An Xie, Xiao Zhang,  Xiaoliang Wang, Zhuzhong Qian, Sanglu Lu. Ambula: Build Communication Lifeline of Corporations During Emergency. In *Proceedings of IEEE ICPADS*, 2017.
 
-
 ### 软件无缝演化与过程演进支撑技术
 
 ### 软件演化质量评估方法和保障机制
@@ -37,5 +36,6 @@ date: 2018-04-25
 * Wenhua Yang, Chang Xu, Minxue Pan, Chun Cao, Xiaoxing Ma, Jian Lu. Efficient Validation of Self-adaptive Applications by Counterexample Probability Maximization. In *Journal of Systems and Software*, 138, 2018.
 * Wenhua Yang, Chang Xu, Minxue Pan, Xiaoxing Ma, Jian Lu. Improving Veriﬁcation Accuracy of CPS by Modeling and Calibrating Interaction Uncertainty. In *ACM Transactions on Internet Technology*, 18(2), 2018.
 
-
 ### 工具平台与应用探索
+
+(注：文中所列论文均为项目第一标注)
