@@ -7,25 +7,23 @@
 <head>
   <meta charset="utf-8">
   
-  <title>基于分布Locality-Sensitive Hashing的云服务推荐技术 | Growinware</title>
+  <title>课题一研究进展总结 | Growinware</title>
 
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <meta name="description" content="在云服务提供商中，为用户提供满足其QoS需求的服务是至关重要的，而在跨云平台(例如Amazon、IBM等多个平台)的应用场景中，多个平台的信息整合成为一项研究挑战。本文介绍了如何利用LSH技术在解决隐私保护、准确、可扩展的服务推荐问题。">
+  <meta name="description" content="本文汇总了项目各个子课题方面取得的研究进展汇总">
 <meta name="keywords" content="研究进展">
 <meta property="og:type" content="article">
-<meta property="og:title" content="基于分布Locality-Sensitive Hashing的云服务推荐技术">
-<meta property="og:url" content="https://growinware-nju.github.io/2018/05/23/jsac-qi-zhang-dou-ni/index.html">
+<meta property="og:title" content="课题一研究进展总结">
+<meta property="og:url" content="https://growinware-nju.github.io/2018/04/25/task1-list/index.html">
 <meta property="og:site_name" content="Growinware">
-<meta property="og:description" content="在云服务提供商中，为用户提供满足其QoS需求的服务是至关重要的，而在跨云平台(例如Amazon、IBM等多个平台)的应用场景中，多个平台的信息整合成为一项研究挑战。本文介绍了如何利用LSH技术在解决隐私保护、准确、可扩展的服务推荐问题。">
+<meta property="og:description" content="本文汇总了项目各个子课题方面取得的研究进展汇总">
 <meta property="og:locale" content="default">
-<meta property="og:image" content="https://growinware-nju.github.io/content/jsac-lsh.png">
-<meta property="og:updated_time" content="2018-05-24T11:32:38.000Z">
+<meta property="og:updated_time" content="2018-05-25T05:58:36.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="基于分布Locality-Sensitive Hashing的云服务推荐技术">
-<meta name="twitter:description" content="在云服务提供商中，为用户提供满足其QoS需求的服务是至关重要的，而在跨云平台(例如Amazon、IBM等多个平台)的应用场景中，多个平台的信息整合成为一项研究挑战。本文介绍了如何利用LSH技术在解决隐私保护、准确、可扩展的服务推荐问题。">
-<meta name="twitter:image" content="https://growinware-nju.github.io/content/jsac-lsh.png">
+<meta name="twitter:title" content="课题一研究进展总结">
+<meta name="twitter:description" content="本文汇总了项目各个子课题方面取得的研究进展汇总">
   
   
     <link rel="icon" href="/favicon.ico">
@@ -115,13 +113,13 @@
   <section id="main">
     
     <h2 itemprop="name">
-      <a class="article-title" href="/2018/05/23/jsac-qi-zhang-dou-ni/">基于分布Locality-Sensitive Hashing的云服务推荐技术</a>
+      <a class="article-title" href="/2018/04/25/task1-list/">课题一研究进展总结</a>
     </h2>
 
 
     <div class="row">
 <div class="col-md-9 col-sm-9 blog-posts">
-<article id="post-jsac-qi-zhang-dou-ni" class="article article-type-post blog-item" itemscope itemprop="blogPost">
+<article id="post-task1-list" class="article article-type-post blog-item" itemscope itemprop="blogPost">
   <div class="article-meta">
   </div>
   <div class="article-inner">
@@ -131,7 +129,7 @@
       <ul class="blog-info">
 	<li><i class="fa fa-user"></i> Growinware</li>
 	<li><i class="fa fa-calendar"></i>
-	  <time datetime="2018-05-22T16:00:00.000Z" itemprop="datePublished">2018/05/23</time>
+	  <time datetime="2018-04-24T16:00:00.000Z" itemprop="datePublished">2018/04/25</time>
 
 	</li>
 	<li class="hidden-xs"><i class="fa fa-tags"></i> 
@@ -149,14 +147,27 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p><img src="/content/jsac-lsh.png" alt=""></p>
-<p>在云服务提供商中，为用户提供满足其QoS需求的服务是至关重要的，而在跨云平台(例如Amazon、IBM等多个平台)的应用场景中，多个平台的信息整合成为一项研究挑战。本文介绍了如何利用LSH技术在解决隐私保护、准确、可扩展的服务推荐问题。</p>
+        <p>本文汇总了项目各个子课题方面取得的研究进展汇总</p>
 <a id="more"></a>
-<h3 id="论文摘要"><a href="#论文摘要" class="headerlink" title="论文摘要"></a>论文摘要</h3><p>To maximize the economic benefits, a cloud service provider needs to recommend its services to as many users as possible based on the historical user-service quality data. However, when a cloud platform (e.g., Amazon) intends to make a service recommendation decision, considering only its own user-service quality data is insufficient, because a cloud user may invoke services from multiple distributed cloud platforms (e.g., Amazon and IBM). In this situation, it is promising for Amazon to collaborate with other cloud platforms (e.g., IBM) to utilize the integrated data for the service recommendation to improve the recommendation accuracy. However, two challenges are present in the above-mentioned collaboration process, where we attempt to use multi-source data for the service recommendation. First, protecting users’ privacy is challenging when IBM releases its own data to Amazon. Second, the recommendation efficiency and scalability are often low when the user-service quality data of Amazon and IBM update frequently. Considering these challenges, a privacy-preserving and scalable service recommendation approach based on distributed locality-sensitive hashing, i.e., SerRec(distri-LSH), is proposed in this paper to handle the service recommendation in a distributed cloud environment. Extensive experiments on the WS-DREAM data set validate the feasibility of our approach in terms of service recommendation accuracy, scalability, and privacy preservation.</p>
-<h3 id="发表论文"><a href="#发表论文" class="headerlink" title="发表论文"></a>发表论文</h3><ul>
-<li>Lianyong Qi, Xuyun Zhang, Wanchun Dou, Qiang Ni. A Distributed Locality-Sensitive Hashing-Based Approach for Cloud Service Recommendation From Multi-Source Data. In <em>IEEE Journal on Selected Areas in Communications</em>, 35(11), 2017. (第一标注)</li>
+<p>(本文列出论文均为项目第一标注)</p>
+<h3 id="开放环境感知与自适应方法和技术"><a href="#开放环境感知与自适应方法和技术" class="headerlink" title="开放环境感知与自适应方法和技术"></a>开放环境感知与自适应方法和技术</h3><h4 id="期刊论文"><a href="#期刊论文" class="headerlink" title="期刊论文"></a>期刊论文</h4><ul>
+<li>Yafeng Yin, Qun Li, Lei Xie, Shanhe Yi, Ed Novak, and Sanglu Lu. CamK: Camera-based Keystroke Detection and Localization for Small Mobile Devices. <em>IEEE Transactions on Mobile Computing</em>, 2018.</li>
+<li>Bin Tang, and Shenghao Yang. An LDPC approach for chunked network codes. <em>IEEE/ACM Transactions on Networking</em>, 26(1): 605-617, 2018.</li>
+<li>Wenhua Yang, Chang Xu, Minxue Pan, Chun Cao, Xiaoxing Ma, Jian Lu. Efficient Validation of Self-adaptive Applications by Counterexample Probability Maximization. In <em>Journal of Systems and Software</em>, 138, 2018.</li>
+<li>Wenhua Yang, Chang Xu, Minxue Pan, Xiaoxing Ma, Jian Lu. Improving Veriﬁcation Accuracy of CPS by Modeling and Calibrating Interaction Uncertainty. In <em>ACM Transactions on Internet Technology</em>, 18(2), 2018.</li>
+<li>Lianyong Qi, Xuyun Zhang, Wanchun Dou, Qiang Ni. A Distributed Locality-Sensitive Hashing-Based Approach for Cloud Service Recommendation From Multi-Source Data. In <em>IEEE Journal on Selected Areas in Communications</em>, 35(11), 2017.</li>
 </ul>
-
+<h4 id="会议论文"><a href="#会议论文" class="headerlink" title="会议论文"></a>会议论文</h4><ul>
+<li>Xiao Zhang, Wenzhong Li, Xu Chen, and Sanglu Lu. MoodExplorer: Towards Compound Emotion Detection via Smartphone Sensing. In <em>Proceedings of ACM Interact. Mob. Wearable Ubiquitous Technologies</em> (UbiComp), 2018.</li>
+<li>Tong Zhan, Wenzhong Li, Xu Chen, and Sanglu Lu. Capturing the Shifting Shapes: Enabling Efficient Screen-Camera Communication with a Pattern-based Dynamic Barcode. In <em>Proceedings of ACM Interact. Mob. Wearable Ubiquitous Technologies</em> (UbiComp), 2018.</li>
+<li>Jiayao Tan; Xiaoliang Wang; Cam Tu Nguyen; Yu Shi, SilentKey: An New Authentication Framework through Ultrasonic-based Lip Reading. In <em>Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies</em> (UbiComp), 2018.</li>
+<li>Haixiang Yang, Xiaoliang Wang, Cam-Tu Nguyen, Sanglu Lu. Optimizing User Experience through Implicit Content-aware Network Service in the Home Environment. In <em>Proceedings of GROUP</em>, 2018.</li>
+<li>Xiaoda Zhang, Zhuzhong Qian, Sheng Zhang, Xiangbo Li, Xiaoliang Wang and Sanglu Lu. COBRA: Toward Provably Efficient Semi-Clairvoyant Scheduling in Data Analytics Systems. In <em>INFOCOM</em>, 2018. </li>
+<li>Rui Zhang, Sheng Zhang, Zhuzhong Qian, Mingjun Xiao, Jie Wu, Jidong Ge, Sanglu Lu. Collaborative Interactive Wireless Charging in a Cyclic Mobispace. In <em>Proceedings of the International Symposium on Quality of Service</em> (IWQoS), 2018.</li>
+<li>Xuewei Zhang, Wang Xiaoliang, Cam-Tu Nguyen, Jiang Wang, Zhuzhong Qian, Sanglu Lu. A Virtual Middleboxes Network Placement Algorithm in Multi-tenant Datacenter Networks. In <em>Proceedings of IEEE ICPADS</em>, 2017.</li>
+<li>An Xie, Xiao Zhang,  Xiaoliang Wang, Zhuzhong Qian, Sanglu Lu. Ambula: Build Communication Lifeline of Corporations During Emergency. In <em>Proceedings of IEEE ICPADS</em>, 2017.</li>
+</ul>
+<h3 id="软件无缝演化与过程演进支撑技术"><a href="#软件无缝演化与过程演进支撑技术" class="headerlink" title="软件无缝演化与过程演进支撑技术"></a>软件无缝演化与过程演进支撑技术</h3><h3 id="软件演化质量评估方法和保障机制"><a href="#软件演化质量评估方法和保障机制" class="headerlink" title="软件演化质量评估方法和保障机制"></a>软件演化质量评估方法和保障机制</h3><h3 id="工具平台与应用探索"><a href="#工具平台与应用探索" class="headerlink" title="工具平台与应用探索"></a>工具平台与应用探索</h3>
       
     </div>
   </div>
@@ -164,19 +175,19 @@
     
 <nav id="article-nav">
   
-    <a href="/2018/05/24/ubicomp18-zhang-li-chen-lu/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2018/05/12/maintain/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Newer</strong>
       <div class="article-nav-title">
         
-          智能手机感知下的复合情绪检测
+          课题层信息发布平台的维护
         
       </div>
     </a>
   
   
-    <a href="/2018/05/12/maintain/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2018/04/23/180423-subtask/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">课题层信息发布平台的维护</div>
+      <div class="article-nav-title">开放环境感知与自适应方法和技术研究进展</div>
     </a>
   
 </nav>
