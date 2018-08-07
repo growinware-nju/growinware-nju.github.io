@@ -37,8 +37,18 @@ date: 2050-01-01
 ### 软件演化质量评估方法和保障机制
 
 #### 期刊论文
-* Wenhua Yang, Chang Xu, Minxue Pan, Chun Cao, Xiaoxing Ma, Jian Lu. Efficient Validation of Self-adaptive Applications by Counterexample Probability Maximization. *Journal of Systems and Software*, 138, 2018. ([简介](/2018/05/24/briefing/jss-yang-xu-pan-cao-ma-lu/))
-* Wenhua Yang, Chang Xu, Minxue Pan, Xiaoxing Ma, Jian Lu. Improving Veriﬁcation Accuracy of CPS by Modeling and Calibrating Interaction Uncertainty. *ACM Transactions on Internet Technology*, 18(2), 2018. ([简介](/2018/04/23/briefing/toit-yang-xu-pan-ma-lu/))
+* Jue Wang, Yanyan Jiang, Chang Xu, Qiwei Li, Tianxiao Gu, Jun Ma, Xiaoxing Ma, and Jian Lu. AATT+: Effectively Manifesting Concurrency Bugs in Android Apps. *Science of Computer Programming* (SCP), Vol. 163, pp. 1-18, Oct 2018.
+* Yi Liu, Jue Wang, Chang Xu, Xiaoxing Ma, and Jian Lu. NavyDroid: An Efficient Tool of Energy Inefficiency Problem Diagnosis for Android Applications. *Science China Information Sciences* (SCIS), Vol. 61, Article 050103, pp. 1-20, May 2018.
+* Wenhua Yang, Chang Xu, Minxue Pan, Chun Cao, Xiaoxing Ma, Jian Lu. Efficient Validation of Self-adaptive Applications by Counterexample Probability Maximization. *Journal of Systems and Software*, VOl. 138, 2018. ([简介](/2018/05/24/briefing/jss-yang-xu-pan-cao-ma-lu/))
+* Wenhua Yang, Chang Xu, Minxue Pan, Xiaoxing Ma, Jian Lu. Improving Veriﬁcation Accuracy of CPS by Modeling and Calibrating Interaction Uncertainty. *ACM Transactions on Internet Technology* (TOIT), 18(2), 2018. ([简介](/2018/04/23/briefing/toit-yang-xu-pan-ma-lu/))
+
+#### 会议论文
+
+* Shengtao Yue, Jun Ma, Qingwei Sun, Xianping Tao, Chang Xu, and Jian Lu. RegionDroid: A Tool for Detecting Android Application Repackaging Based on Runtime UI Region Features. In *Proceedings of the 34th IEEE International Conference on Software Maintenance and Evolution* (ICSME), Madrid, Spain, Sep 2018.
+* Yuju Shen, Yanyan Jiang, Chang Xu, Ping Yu, Xiaoxing Ma, and Jian Lu. ReScue: Crafting Regular Expression DoS Attacks. In *Proceedings of the 33rd IEEE/ACM International Conference on Automated Software Engineering* (ASE), Corum, Montpellier, France, Sep 2018. ([简介](/2018/08/07/briefing/ase18-shen-jiang-xu-yu-ma-lu/))
+* Yi Qin, Huiyan Wang, Chang Xu, Xiaoxing Ma, and Jian Lu. SynEva: Evaluating ML Programs by Mirror Program Synthesis. In *Proceedings of the International Conference on Software Quality, Reliability and Security* (QRS), pp. 171-182, Lisbon, Portugal, Jul 2018.
+* Dawei Cheng, Chun Cao, Chang Xu, and Xiaoxing Ma. Manifesting Bugs in Machine Learning Code: An Explorative Study with Mutation Testing. In *Proceedings of the International Conference on Software Quality, Reliability and Security* (QRS), pp. 313-324, Lisbon, Portugal, Jul 2018.
+* Jun Ma, Shaocong Liu, Yanyan Jiang, Xianping Tao, Chang Xu, and Jian Lu. LESdroid - A Tool for Detecting Exported Service Leaks of Android Applications. In *Proceedings of the 26th IEEE International Conference on Program Comprehension* (ICPC 2018), pp. 244-254, Gothenburg, Sweden, May 2018.
 
 ### 工具平台与应用探索
 
